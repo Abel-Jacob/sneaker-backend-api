@@ -18,8 +18,8 @@ app.add_middleware(
 )
 
 # Load models once
-brand_model = tf.keras.models.load_model("brand_model.h5")
-auth_model = tf.keras.models.load_model("auth_model.h5")
+brand_model = tf.keras.models.load_model("brand_model.keras")
+auth_model = tf.keras.models.load_model("auth_model.keras")
 
 def preprocess(image):
     image = image.resize((224, 224))
