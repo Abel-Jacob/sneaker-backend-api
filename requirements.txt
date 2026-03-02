@@ -3,3 +3,4 @@ uvicorn
 tensorflow==2.16.1
 pillow
 numpy
+python-multipart
